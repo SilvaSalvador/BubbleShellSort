@@ -1,0 +1,31 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore build output directories
+out/
+target/
+
+# Ignore Gradle files
+.gradle/
+build/
+
+# Ignore Maven files
+.mvn/
+!**/src/main/**/target/
+
+# Ignore temporary files
+*.log
+*.swp
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+*.idea/
+*.vscode/
+
+# Ignore sensitive environment files
+.env
